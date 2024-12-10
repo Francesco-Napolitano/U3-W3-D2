@@ -1,0 +1,31 @@
+.card-body {
+  background-image: url("https://www.louisdallaraphotography.com/wp-content/uploads/2019/11/clouds-photo-6119.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 2em;
+}
+
+.card-title{
+  color: white !important;
+  font-size: 3em !important;
+}
+
+.card-text{
+  color: white;
+  font-size: 1.5em;
+}
+
+.card{
+  
+  margin-top: 6.5em;
+
+}
+
+.bi-heart{
+  margin-left: 10px;
+  font-size: 0.7em;
+}
