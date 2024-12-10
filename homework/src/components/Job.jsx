@@ -8,7 +8,7 @@ import {
 } from '../redux/actions'
 
 const Job = ({ data }) => {
-  const favourites = useSelector((state) => state.favourite.list)
+  const favourites = useSelector((state) => state.favourites.favourite.list)
   const dispatch = useDispatch()
 
   const isFav = favourites.includes(data.company_name)

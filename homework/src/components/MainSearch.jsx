@@ -8,7 +8,9 @@ import { getResultsAction } from '../redux/actions'
 const MainSearch = () => {
   const [query, setQuery] = useState('')
   const dispatch = useDispatch()
-  const jobs = useSelector((reduxState) => reduxState.job.list)
+  const jobs = useSelector((reduxState) => {
+    return reduxState.results.allResults
+  })
   const navigate = useNavigate()
 
   const handleChange = (e) => {
